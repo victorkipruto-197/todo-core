@@ -1,0 +1,25 @@
+{
+  "name": "todo-core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [
+    "todo",
+    "usecase",
+    "clean architecture",
+    "typescript"
+  ],
+  "author": "Victor Kipruto",
+  "license": "ISC",
+  "description": "Core business logic and contracts for a Todo APplication ",
+  "devDependencies": {
+    "@types/node": "^24.0.13",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "uuid": "^11.1.0"
+  }
+}
